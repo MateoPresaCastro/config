@@ -6,7 +6,7 @@
 brew update
 brew upgrade
 
-brew install git node nvm go tree jq gh
+brew install git node nvm deno go tree jq gh protobuf
 brew install --cask visual-studio-code docker
 
 # Install oh-my-zsh
