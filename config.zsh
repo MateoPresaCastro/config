@@ -15,5 +15,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Add zsh-autosuggestions to .zshrc
 sed -i '' '/^plugins=(/ s/)$/ zsh-autosuggestions)/' ${HOME}/.zshrc || echo "Failed to add zsh-autosuggestions plugin."
 
-echo "Open Visual Studio Code and run 'Shell Command: Install 'code' command in PATH' from the Command Palette."
-echo "Then run install-vsode-exts.zsh"
+echo "🌱 Done. Open Visual Studio Code and run 'Shell Command: Install 'code' command in PATH' from the Command Palette."
